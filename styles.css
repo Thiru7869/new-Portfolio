@@ -17,7 +17,7 @@ body {
 }
 
 .nav-link {
-    padding: 8px 15px; /* Reduced padding */
+    padding: 8px 15px;
     opacity: 1;
     transition: transform 0.3s ease, color 0.3s ease, opacity 0.3s ease;
 }
@@ -52,17 +52,26 @@ body {
     }
 
     .nav-link {
-        padding: 4px 8px; /* Even smaller padding on extra small screens */
-        font-size: 12px;  /* Smaller font size */
+        padding: 4px 8px;
+        font-size: 12px;
+        white-space: normal;
+        display: block;
     }
 
     .btn {
-        font-size: 16px;
-        padding: 10px 15px;
+        font-size: 20px;
+        padding: 16px 20px;
     }
 
     .btn i {
-        font-size: 22px;
+        font-size: 24px;
+    }
+
+    .download-cv-btn {
+        width: 100%;
+        padding: 14px 0;
+        font-size: 20px;
+        margin-top: 12px;
     }
 }
 
@@ -74,15 +83,24 @@ body {
     .nav-link {
         padding: 8px 14px;
         font-size: 16px;
+        white-space: normal;
+        display: block;
     }
 
     .btn {
-        font-size: 18px;
-        padding: 11px 16px;
+        font-size: 20px;
+        padding: 14px 20px;
     }
 
     .btn i {
-        font-size: 24px;
+        font-size: 26px;
+    }
+
+    .download-cv-btn {
+        width: 100%;
+        padding: 16px 0;
+        font-size: 22px;
+        margin-top: 12px;
     }
 }
 
