@@ -50,10 +50,10 @@ body {
     .offcanvas {
         width: 75%;
     }
-    
+
     .nav-link {
-        padding: 6px 12px; /* Even smaller padding on very small screens */
-        font-size: 14px;
+        padding: 4px 8px; /* Even smaller padding on extra small screens */
+        font-size: 12px;  /* Smaller font size */
     }
 
     .btn {
